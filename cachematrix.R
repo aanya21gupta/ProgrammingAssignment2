@@ -1,6 +1,8 @@
 ## These functions reduce the computational cost 
 ## of repeated access to a matrix inversion
 
+## COMMENT
+
 ## this function creates a special 'matrix' object
 ## this matrix object can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
